@@ -1,0 +1,10 @@
+#success-message {
+    display: none;
+}
+#success-message.show {
+    display: block;
+}
+.success_text {
+    text-align: center;
+    font-weight: bold;
+}

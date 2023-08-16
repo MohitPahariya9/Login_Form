@@ -7,5 +7,38 @@
 </head>
 <body>
     <h1>my bebsite</h1>
+    <div class="form-style-6">
+        <p class="success_text">
+            Success!
+        </p>
+        <form id="form" action="main.html/form" method="POST">
+            <fieldset>
+            <legend>Contact Us</legend>
+            <div class="asterisk_firstname">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="user_firstName" required>
+            </div>
+            <div class="asterisk_lastname">
+            <label for="latName">Last Name:</label>
+            <input type="text" id="lastName" name="user_lastName" required>
+            </div>
+            <div class="asterisk_email">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="user_email" required>
+            </div>
+            <label for="role">Position:</label>
+            <select id="role" name="user_role">
+                <option value="none">-Select-</option>
+                <option value="account_manager">Account Manager</option>
+                <option value="project_manager">Project Manager</option>
+                <option value="developer">Developer</option>
+                <option value="quality analyst">Quality Analyst</option>
+            </select>
+            <label for="comment">Note:</label>
+            <textarea id="comment" name="user_comment"></textarea>
+            <button type="submit" id="submitt">Submit</button>
+            </fieldset>
+        </form>
+    </div>
 </body>
 </html>
